@@ -80,6 +80,7 @@ add_library(boost_numpy_eigen SHARED
 target_link_libraries(boost_numpy_eigen
   ${Boost_LIBRARIES}
   ${PYTHON_LIBRARIES}
+  Python::NumPy
 )
 set_target_properties(boost_numpy_eigen PROPERTIES
   PREFIX ""

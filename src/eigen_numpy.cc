@@ -434,9 +434,9 @@ void*
 void
 #endif
 SetupEigenConverters() {
-  static bool is_setup = false;
-  if (is_setup) return NUMPY_IMPORT_ARRAY_RETVAL;
-  is_setup = true;
+  // static bool is_setup = false;
+  // if (is_setup) return NUMPY_IMPORT_ARRAY_RETVAL;
+  // is_setup = true;
 
   import_array();
 
